@@ -6,7 +6,7 @@ public class Matrix {
 	private int columns;
 	Matrix(int rows,int columns){
 		this.matrix = new int[rows][columns];
-		this.setRows(rows);
+		this.setRows(rows);  
 		this.setColumns(columns);
 	}
 	public int[][] getMatrix(){
